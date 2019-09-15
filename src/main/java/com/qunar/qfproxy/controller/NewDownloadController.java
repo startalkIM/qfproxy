@@ -43,6 +43,5 @@ public class NewDownloadController {
         }
         fileName = StorageConfig.SWIFT_FOLDER + fileName;
         downloadService.downloadService(fileName,req,resp);
-
     }
 }

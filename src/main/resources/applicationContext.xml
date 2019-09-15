@@ -12,10 +12,12 @@
             <list>
                 <value>classpath:qfproxy.properties</value>
                 <value>classpath:storage.properties</value>
+                <value>classpath*:jdbc.properties</value>
+
             </list>
         </property>
         <property name="ignoreUnresolvablePlaceholders" value="true"/>
     </bean>
-
+<import resource="context-datasource.xml"/>
 
 </beans>
