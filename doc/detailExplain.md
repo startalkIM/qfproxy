@@ -1,4 +1,5 @@
-English version: 
+English version:  
+
 constants：static constants of setting parameters
 
     CodeConstants: static constants of error codes.
@@ -36,7 +37,8 @@ utils: Common utils.
     ImgTypeUtils: It's for getting real type of pictures, you can get it from the first 12 bytes of inputStreamWrapper.
 
 
-中文版本:
+中文版本:  
+
 constants：提供常静态常量配置参数
 
     CodeConstants:静态常量 主要是错误码
